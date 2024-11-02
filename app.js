@@ -9,18 +9,10 @@ let currentInput = '';
 let result = 0;
 let operator = null;
 
-/**
- * Updates the display screen with the given value or defaults to '0' if empty
- * @param {string} value - Value to display on the screen
- */
 const updateDisplay = (value) => {
     display.textContent = value || '0';
 };
 
-/**
- * Handles different types of input for the calculator, including numbers, operators, and commands
- * @param {string} input - The input received from button click or keyboard press
- */
 const handleInput = (input) => {
     // Check if input is a number or a decimal point
     if (!isNaN(input) || input === '.') {
