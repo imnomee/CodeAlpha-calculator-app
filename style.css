@@ -1,0 +1,160 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* Header Styling */
+header {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+header p {
+    font-size: 1.3rem;
+    color: #555;
+    max-width: 800px;
+    line-height: 1.5;
+}
+
+/* Calculator Container */
+.calculator {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: -10px;
+}
+
+/* Display Styling */
+.display {
+    width: 100%;
+    background-color: #f7f9fc;
+    color: #333;
+    font-size: 3rem;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Container Styling */
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 100%;
+}
+
+/* Button Styling */
+.btn {
+    background-color: #e0e3e7;
+    color: #333;
+    font-size: 2rem;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #d0d4db;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.operator {
+    background-color: #f9a825;
+    color: #ffffff;
+}
+
+.operator:hover {
+    background-color: #f57f17;
+}
+
+.equals {
+    background-color: #4caf50;
+    color: #ffffff;
+    grid-column: span 2;
+}
+
+.equals:hover {
+    background-color: #43a047;
+}
+
+.clear {
+    background-color: #e53935;
+    color: #ffffff;
+}
+
+.clear:hover {
+    background-color: #d32f2f;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555;
+    padding: 30px;
+}
+
+footer a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.linkedin {
+    height: 100%;
+    background: white;
+}
+.linkedin i {
+    font-size: 2.5rem;
+}
+.btn:hover i {
+    color: rgb(60, 60, 142);
+}

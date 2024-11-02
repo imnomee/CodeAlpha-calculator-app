@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CodeAlpha Calculator - ImNomee</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <h1>Basic Calculator</h1>
+            <p>
+                This is a simple calculator with basic arithmetic operations
+                such as addition, subtraction, multiplication, and division. It
+                supports both button input and keyboard input, making it
+                convenient for quick calculations.
+            </p>
+        </header>
+        <div class="calculator">
+            <!-- Display Screen -->
+            <div class="display" id="display">0</div>
+
+            <!-- Calculator Buttons -->
+            <div class="button-container">
+                <!-- Number buttons -->
+                <button class="btn" data-value="7">7</button>
+                <button class="btn" data-value="8">8</button>
+                <button class="btn" data-value="9">9</button>
+                <button class="btn operator" data-value="/">÷</button>
+
+                <button class="btn" data-value="4">4</button>
+                <button class="btn" data-value="5">5</button>
+                <button class="btn" data-value="6">6</button>
+                <button class="btn operator" data-value="*">×</button>
+
+                <button class="btn" data-value="1">1</button>
+                <button class="btn" data-value="2">2</button>
+                <button class="btn" data-value="3">3</button>
+                <button class="btn operator" data-value="-">−</button>
+
+                <button class="btn" data-value="0">0</button>
+                <button class="btn" data-value="00">00</button>
+                <button class="btn" data-value=".">.</button>
+                <button class="btn operator" data-value="+">+</button>
+
+                <!-- Clear button -->
+                <button class="btn clear" id="clear" data-value="C">C</button>
+                <button class="btn equals" data-value="=" id="equals">=</button>
+                <a
+                    href="https://www.linkedin.com/in/heyimnomee/"
+                    target="_blank"
+                    class="linkedin btn"
+                    ><i class="fa-brands fa-linkedin"></i
+                ></a>
+            </div>
+        </div>
+        <footer>
+            <p>
+                Created by Noman Rafiq as an educational project. Feel free to
+                use, modify, and learn from this calculator project!
+            </p>
+            <p><a href="mailto:noman@example.com">Contact Me</a></p>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
